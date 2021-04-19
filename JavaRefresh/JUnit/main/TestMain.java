@@ -1,14 +1,14 @@
 package main;
 import cases.Cal;
-import org.junit.jupiter.api.*;
+
+import static org.junit.Assert.assertEquals;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import java.util.Scanner;
-import java.util.logging.Logger;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
 
 
 public class TestMain {
@@ -28,7 +28,7 @@ public class TestMain {
         String[] args = {};
         Cal.main(args);
 
-        assertEquals("2", out.toString());
+        assertEquals(2, out.toString());
 
     }
 

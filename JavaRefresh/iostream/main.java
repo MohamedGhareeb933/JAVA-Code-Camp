@@ -19,7 +19,6 @@ public class main {
 
             logger.info("Test line sperator" + System.getProperty("line.separator") + "continue Test");
 
-
             String input = String.valueOf(scanner.nextLine());
 
             System.setIn(new ByteArrayInputStream(input.getBytes()));

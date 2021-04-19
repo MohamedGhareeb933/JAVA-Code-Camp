@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Apps\\Git Repos\\jar and snippet\\junit-4.12.jar"
+    ]
+}

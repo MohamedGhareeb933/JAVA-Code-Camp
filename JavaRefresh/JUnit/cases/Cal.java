@@ -1,20 +1,11 @@
 package cases;
 
-import com.sun.istack.internal.logging.Logger;
-import jdk.internal.util.xml.impl.Input;
-import main.TestMain;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.TestWatcher;
-
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
 import java.util.Scanner;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.util.logging.Logger;
 
 public class Cal {
 
-    static Logger logger = Logger.getLogger(Cal.class);
+    Logger logger = Logger.getLogger(Cal.class.getName());
 
     public int add(int a) { return  a + 10; }
 
