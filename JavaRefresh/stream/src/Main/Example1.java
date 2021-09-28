@@ -1,16 +1,14 @@
-package Example1;
+package Main;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class main {
+public class Example1 {
 
-    private static Logger logger = Logger.getLogger(main.class.toString());
+    private static Logger logger = Logger.getLogger(Example1.class.toString());
 
     public static void main(String[] args) {
 

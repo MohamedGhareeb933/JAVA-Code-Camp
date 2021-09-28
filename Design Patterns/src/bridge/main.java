@@ -1,11 +1,9 @@
 package designpatterns;
 
-import jdk.nashorn.internal.codegen.CompilerConstants;
-import sun.applet.Main;
 
 public class main {
 
-    static void Client(Abstraction abs) {
+    static void Client(designpatterns.Abstraction abs) {
         System.out.println(abs.operation());
     }
 
