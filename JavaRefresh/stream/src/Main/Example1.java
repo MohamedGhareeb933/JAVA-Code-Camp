@@ -1,6 +1,8 @@
-package stream;
+package Example1;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -12,12 +14,7 @@ public class main {
 
     public static void main(String[] args) {
 
-        List<String> aList = new ArrayList<>();
-
-        aList.add("mohamed");
-        aList.add("omar");
-        aList.add("g");
-        aList.add("c");
+        List<String> aList = new ArrayList<>(Arrays.asList("mohamed", "omar", "g", "c"));
 
 
         List<String> bList = aList.stream().filter( n -> n.startsWith("o"))
